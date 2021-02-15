@@ -101,7 +101,7 @@ class QueryCheckerForm
 
     private function getPing(Player $player) {
         $ping = $player->getPing();
-        if ($ping =< 100) {
+        if ($ping <= 100) {
             return 2;
         }elseif ($ping >= 400) {
             return 4;
