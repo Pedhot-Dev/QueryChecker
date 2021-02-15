@@ -105,8 +105,6 @@ class QueryCheckerForm
             return 2;
         }elseif ($ping > 400) {
             return 4;
-        }elseif ($ping > 1000) {
-            return 6;
         }else{
             return 2;
         }
